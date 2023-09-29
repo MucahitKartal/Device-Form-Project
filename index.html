@@ -48,29 +48,77 @@
           <article class="photo2"></article>
           <article class="photo3"></article>
           <article class="github">
-            <i id="space" class="fa-brands fa-github"></i> GitHub
+            <i id="space" class="fa-brands fa-github"></i>
+            GitHub
             <i id="arrow" class="fa-solid fa-arrow-right"></i>
           </article>
+
+          <article class="yt">
+            <i id="space2" class="fa-brands fa-youtube"></i>
+            YouTube
+            <i id="arrow1" class="fa-solid fa-arrow-right"></i>
+          </article>
+          <article class="linkedin">
+            <i id="space3" class="fa-brands fa-linkedin"></i>
+
+            LinkedIn
+            <i id="arrow2" class="fa-solid fa-arrow-right"></i>
+          </article>
+
+          <article class="bos"></article>
+          <article class="bos2"></article>
         </article>
       </article>
     </section>
-    <article class="right">
-      <main>
-        <h2>Customize your links</h2>
+    <section class="right">
+      <h1>Customize your links</h1>
+      <p>
+        Add/edit/remove links below and then share all your profiles with the
+        world!
+      </p>
+      <button class="btn1">+ Add new link</button>
+      <article class="link1">
+        <p>= Link#1 <span>Remove</span></p>
+        <label class="label1" for="platform">Platform</label><br />
+        <select class="select" name="platform" id="platform">
+          <option value="GitHub">GitHub</option>
+          <option value="YouTube">YouTube</option>
+          <option value="LinkedIn">LinkedIn</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Facebook">Facebook</option>
+        </select>
+        <label class="label2" for="label2">Link</label>
+        <input
+          type="text"
+          name="link2"
+          id="label2"
+          placeholder="https://www.github.com/benwright"
+        />
+      </article>
+      <article class="link1">
+        <p>= Link#2 <span>Remove</span></p>
+        <label class="label1" for="platform">Platform</label><br />
+        <select class="select" name="platform" id="platform">
+          <option value="GitHub">GitHub</option>
+          <option selected value="YouTube">YouTube</option>
+          <option value="LinkedIn">LinkedIn</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Facebook">Facebook</option>
+        </select>
+        <label class="label2" for="label2">Link</label>
+        <input
+          type="text"
+          name="link2"
+          id="label2"
+          placeholder="https://www.youtube.com/benwright"
+          value=""
+        />
+        <i id="icon2" class="fa-solid fa-link"></i>
+      </article>
 
-        <p>
-          Add/edit/remove links below and then share all your profiles with the
-          world!
-        </p>
+      <hr />
 
-        <button>+ Add new link</button>
-        <form action="">
-          <label for="Platform">Platform</label><br /><br />
-          <select name="" id="platform">
-            <option value="Github">Github</option>
-          </select>
-        </form>
-      </main>
-    </article>
+      <button class="btn2">Save</button>
+    </section>
   </body>
 </html>
