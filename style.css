@@ -15,14 +15,14 @@ nav {
 nav ul li {
   display: inline-block;
   /* padding: 15px 150px; */
-  margin-top: 0.3%;
+  padding-top: 1%;
   font-family: "Roboto", sans-serif;
 }
 #devlinks {
   margin-left: 1%;
   font-weight: bold;
   font-size: 18px;
-  padding-top: 1%;
+  padding-top: 1.3%;
 }
 #icon1 {
   border: 2px solid blueviolet;
@@ -37,7 +37,7 @@ nav ul li {
   /* color: rgb(114, 112, 112); */
   /* margin-left: 32%; */
   /* padding: 0.6% 1%; */
-  /* margin-left: 30%; */
+  margin-left: 8px;
 }
 a {
   text-decoration: none;
@@ -46,7 +46,7 @@ a {
 div {
   display: inline-block;
   width: 115px;
-  margin-left: 38%;
+  margin-left: 36%;
   padding: 10px;
 }
 .div2 {
@@ -54,7 +54,7 @@ div {
   width: 150px;
   /* margin-left: 20%; */
   padding: 10px;
-  margin-left: 1%;
+  margin-left: 4%;
 }
 div:hover a {
   color: blueviolet;
@@ -81,25 +81,24 @@ div:hover #icon2 {
 #preview {
   border: 2px solid blueviolet;
   border-radius: 6px;
-  /* padding: 0.4%; */
-  margin-left: 35%;
-  padding: 0.55% 1.3%;
-  /* padding-bottom: 0.4%; */
+  padding: 0.4%;
+  margin-left: 34%;
+  padding: 0.6% 1.3%;
+  padding-bottom: 0.3%;
 }
-
-/*----------------------------------------------------------------   */
+/* ____________________________________________________________ */
 
 .left {
-  border: 2px solid black;
-  width: 35%;
+  border: 2px solid rgb(255, 255, 255);
   height: 85vh;
+  width: 35%;
   margin-left: 1%;
   border-radius: 6px;
   background-color: white;
 }
 
 .phone {
-  border: 1px solid grey;
+  border: 1px solid gray;
   width: 50%;
   height: 75%;
   margin: auto;
@@ -108,25 +107,21 @@ div:hover #icon2 {
   background-color: white;
 }
 .phone2 {
-  border: 1px solid grey;
+  border: 1px solid gray;
   width: 95%;
-  height: 97%;
-  margin: 3% auto;
-  /* margin-top: 3%; */
+  height: 95%;
+  margin: 4% auto;
   border-radius: 35px;
   background-color: white;
 }
-
 .photo {
-  /* border: 1px solid lightgrey; */
   width: 35%;
-  height: 17.5%;
+  height: 20%;
   margin: 10% auto;
   border-radius: 50%;
   background-color: rgba(211, 211, 211, 0.505);
 }
 .photo2 {
-  /* border: 1px solid rgba(211, 211, 211, 0.868); */
   width: 65%;
   height: 3%;
   margin: 10% auto 3%;
@@ -134,16 +129,14 @@ div:hover #icon2 {
   background-color: rgba(211, 211, 211, 0.505);
 }
 .photo3 {
-  /* border: 1px solid rgba(211, 211, 211, 0.868); */
-  width: 40%;
-  height: 2%;
+  width: 30%;
+  height: 1.5%;
   margin: 4% auto;
   border-radius: 5px;
   background-color: rgba(211, 211, 211, 0.505);
 }
-/* Diğerlerinde de kullanılacak(youtube..) */
 .github {
-  border: 1px solid rgba(211, 211, 211, 0.868);
+  border: 1px solid rgba(211, 211, 211, 0.505);
   width: 85%;
   height: 8%;
   margin: 10% auto;
@@ -151,13 +144,58 @@ div:hover #icon2 {
   background-color: black;
   color: white;
   font-size: 12px;
-  padding-top: 4%;
-  te
+  padding-top: 3.5%;
 }
-/* Diğerlerine de aynı özellik */
 #arrow {
   padding-left: 55%;
 }
 #space {
   padding-left: 8%;
+}
+.right {
+  width: 80rem;
+  float: right;
+  margin-top: -44.2%;
+  margin-right: 1%;
+  height: 85vh;
+  background-color: white;
+  border-radius: 6px;
+}
+main {
+  margin: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main p {
+  font-size: 13px;
+  color: rgb(92, 90, 90, 0.76);
+  margin-top: 1em;
+  margin-bottom: 1.9em;
+}
+main h2 {
+  font-weight: 700;
+}
+button {
+  margin-top: 0.5rem;
+  width: 56vw;
+  height: 5.5vh;
+  border-radius: 5px;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+  background-color: white;
+  font-weight: 800;
+}
+h2,
+p,
+button,
+form {
+  margin-left: 1.7%;
+}
+form {
+  margin-top: 7%;
+}
+#platform {
+  width: 50vw;
+  height: 5.5vh;
+  border-radius: 5px;
+  margin-left: 20px;
 }
